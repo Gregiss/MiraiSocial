@@ -283,6 +283,19 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     overflow-x: hidden;
 }
 
+@media screen and (max-width: 1304px) {
+	
+	.center{
+		height: calc(90% - 20px);
+		width: calc(80% - 20px);
+	}
+	
+	.center .left .form h1,h2{
+		position: relative;
+		top: 0px;
+	}
+}
+
 @media screen and (max-width: 1024px) {
     .center{
         width: calc(100% - 50px);
@@ -333,18 +346,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     }
 }
 
-@media screen and (max-width: 1304px) {
-	
-	.center{
-		height: calc(90% - 20px);
-		width: calc(80% - 20px);
-	}
-	
-	.center .left .form h1,h2{
-		position: relative;
-		top: 0px;
-	}
-}
+
 
 .center .left .form .icon{
     position: relative;
