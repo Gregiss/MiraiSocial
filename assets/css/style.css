@@ -1,0 +1,48 @@
+:root{
+    --body: #151515;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body,html{
+    background: var(--body);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.error_get{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    color: #fff;
+}
+
+.error_get h1,h2{
+    line-height: 50px;
+}
+
+.background{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-image: url("/assets/img/background.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 1;
+}
+
+.overlay{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background: rgba(0,0,0,.50);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 2;
+}
