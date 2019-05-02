@@ -337,6 +337,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 	
 	.center{
 		height: calc(90% - 20px);
+		width: calc(80% - 20px);
 	}
 	
 	.center .left .form h1,h2{
