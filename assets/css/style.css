@@ -253,3 +253,49 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     overflow-y: auto;
     overflow-x: hidden;
 }
+
+@media screen and (max-width: 1024px) {
+    .center{
+        width: calc(100% - 50px);
+        height: calc(100% - 50px);
+    }   
+}
+
+@media screen and (max-width: 640px) {
+    .center{
+        width: calc(100% - 0px);
+        height: calc(100% - 0px);
+    }
+    
+    .center .left{
+        width: 100%;
+    }
+
+    .center .right{
+        display: none;
+    }
+
+    .centerbro{
+        top: 85% !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .center{
+        width: calc(100% - 0px);
+        height: calc(100% - 0px);
+    }
+    
+    .center .left{
+        width: 100%;
+    }
+
+    .center .right{
+        display: none;
+    }
+
+    .centerbro{
+        top: 85% !important;
+    }
+}
+
