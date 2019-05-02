@@ -69,7 +69,7 @@
     </div>
     <div class="right">
     <div class="padding textwhite">
-      <h1>No MiraiSocial você pode fazer muitas coisas!</h1>
+      <h1>No <?php echo $title;?> você pode fazer muitas coisas!</h1>
       <div class="image_ilustration" style="background-image:url('https://cdn.dribbble.com/users/427857/screenshots/4870356/ui-designer_illustration_by_tranmautritam.png');">
       <div class="opacity"></div>
       <div class="opacitybottom">
