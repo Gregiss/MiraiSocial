@@ -1,7 +1,4 @@
 <?php
-//Configuração site
-$title = 'MiraiSocial';
-$keywords = 'Social Network, Rede Social, geek, Coders, Decoder';
 
 //Conexão com banco de dados
 
@@ -10,6 +7,9 @@ $password = "xande123";
 
 //Template funcao
 function template($dir, $file){
+    //Configuração site
+    $title = 'MiraiSocial';
+    $keywords = 'Social Network, Rede Social, geek, Coders, Decoder';
     require_once 'themes/template/'.$dir. '/' . $file; // Incluir arquivo template
 }
 

@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-  <title>MiraiSocial - Faça o login ou cadastra-se</title>
+  <title><?php echo $title;?> - Faça o login ou cadastra-se</title>
   <meta name="description" content="<?php echo $title;?>">
   <meta name="keywords" content="<?php echo $keywords;?>">
   <meta name="author" content="kaway404">
@@ -27,8 +27,8 @@
       <div class="opacitybottom"></div>
       <center>
       <div class="form">
-      <h1>Faça o login</h1>
-      <h2>Conheça amigos, e se divirta conosco :)</h2>
+      <h1>Faça o login <?php echo $teste;?></h1>
+      <h2>Conheça amigos, e se divirta conosco</h2>
         <form>
           <div class="icon"><i class="fas fa-at"></i></div>
           <input type="text" placeholder="E-mail">
