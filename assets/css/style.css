@@ -266,7 +266,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     color: var(--font);
     position: relative;
     left: -40px;
-    top: -40px;
+    top: -35px;
     cursor: pointer;
 }
 
