@@ -190,13 +190,8 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     z-index: 5;
     transition: 0.5s;
     background: #fff;
-}
-
-.account .centerbro:hover{
-    -webkit-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.95);
--moz-box-shadow: 15px 10px 59px 5px rgba(0,0,0,0.95);
-box-shadow: 15px 10px 59px 5px rgba(0,0,0,0.95);
-    border-radius: 50%;
+	width: 30px;
+	height: 25px;
 }
 
 .account .right .image_ilustration{
@@ -436,4 +431,17 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 #blainput .icon{
 	left: -24%;
 	top: 13px;
+}
+
+.centerbro .desc{
+	background: var(--white);
+	padding: 6px;
+	position: relative;
+	top: -10px;
+	border-radius: 20px;
+	font-size: 18px;
+	height: 20px;
+	left: -5px;
+	text-align: center;
+	transition: 0.4s;
 }

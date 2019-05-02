@@ -63,6 +63,7 @@
       </div>
     </div>
     <div class="centerbro">
+	  <div class="desc">Registrar</div>
       <div class="cadastrar">
       <i class="fas fa-plus"></i>
       </div>
