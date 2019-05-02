@@ -118,6 +118,8 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     height: 100%;
     background-color: var(--red);
     transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    overflow-x: hidden;
+    overflow-y: auto;
 
 }
 
@@ -184,10 +186,11 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     background: #fff;
 }
 
-.account .centerbro .cadastrar:hover{
+.account .centerbro:hover{
     -webkit-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.95);
 -moz-box-shadow: 15px 10px 59px 5px rgba(0,0,0,0.95);
 box-shadow: 15px 10px 59px 5px rgba(0,0,0,0.95);
+    border-radius: 50%;
 }
 
 .account .right .image_ilustration{
@@ -300,7 +303,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     }
 
     .centerbro{
-        top: 85% !important;
+        top: 90% !important;
     }
 }
 
@@ -319,7 +322,12 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     }
 
     .centerbro{
-        top: 85% !important;
+        top: 90% !important;
+    }
+
+    .center #register .icon{
+        top: 53px;
+        left: -27% !important;
     }
 }
 
@@ -339,4 +347,17 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     position: relative;
     font-size: 22px;
     top: 5px;
+}
+
+.center .left #register{
+    left: -200%;
+}
+
+.form{
+    transition: 1s;
+}
+
+.center #register .icon{
+    top: 53px;
+    left: -25%;
 }

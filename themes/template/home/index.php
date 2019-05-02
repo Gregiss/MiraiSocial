@@ -26,13 +26,28 @@
       <div class="opacity"></div>
       <div class="opacitybottom"></div>
       <center>
-      <div class="form">
-      <h1>Faça o login <?php echo $teste;?></h1>
+      <div class="form" id="login">
+      <h1>Faça o login</h1>
       <h2>Conheça amigos, e se divirta conosco</h2>
         <form>
           <div class="icon"><i class="fas fa-at"></i></div>
           <input type="text" placeholder="E-mail">
-          <button><i class="fas fa-arrow-circle-right"></i></button>
+          <button data-href="login"><i class="fas fa-arrow-circle-right"></i></button>
+        </form>
+      </div>
+      <div class="form" id="register">
+      <h1>Faça o registro</h1>
+      <h2>Conheça amigos, e se divirta conosco</h2>
+        <form>
+          <div class="icon"><i class="fas fa-at"></i></div>
+          <input type="text" placeholder="E-mail">
+          <div class="icon"><i class="fas fa-at"></i></div>
+          <input type="password" placeholder="Senha">
+          <div class="acertar" style="left: 30px;">
+          <div class="icon"><i class="fas fa-at"></i></div>
+          <input type="text" placeholder="Nome">
+          </div>
+          <button style="top: -58px; left: 28%;" data-href="registro"><i class="fas fa-arrow-circle-right"></i></button>
         </form>
       </div>
       </center>
@@ -59,6 +74,8 @@
     </div>
   </div>
 </div>
+
+<script src="/assets/js/home.js?v=1"></script>
 
 </body>
 
