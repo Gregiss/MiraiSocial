@@ -1,5 +1,11 @@
 :root{
-    --body: #151515;
+    --body: #F8E9E9;
+    --font: #1C213F;
+    --bluedark: #1C213F;
+    --blue: #313A87;
+    --yellow: #F3B900;
+    --red: #F5534F;
+    --white: #F8E9E9;
 }
 
 *{
@@ -7,8 +13,20 @@
     margin: 0px;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 10px;
+  }
+::-webkit-scrollbar-thumb {
+    background-color: var(--blue);
+    border-radius: 10px;
+  }
+
 body,html{
-    background: var(--body);
+    background: var(--blue);
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -45,4 +63,193 @@ body,html{
     height: 100%;
     background-size: cover;
     z-index: 2;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--bluedark);
+    width: calc(100% - 50px);
+    height: calc(100% - 50px);
+    -webkit-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
+    overflow-x: hidden;
+    overflow: auto;
+}
+
+.padding{
+    padding: 40px;
+}
+
+.textwhite{
+    color: var(--white);
+}
+
+.account .left{
+    position: absolute;
+    left: 0px;
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: var(--red);
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.account .right{
+    position: absolute;
+    right: 0px;
+    float: right;
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.account h1{
+    font-size: 2.4em;
+}
+
+.account .left .friends{
+    width: calc(100% + 80px);
+    height: 90%;
+    position: relative;
+    top: 20px;
+    left: -40px;
+    background-size: cover;
+    background-image: url("https://static1.squarespace.com/static/53bd92bbe4b0b8633f92a5af/59ff3930e2c483f6d0565405/59ff3986e2c483f6d0565c8e/1509898639956/Impressing+my+best+friends.jpg?format=1000w");
+}
+
+.account .opacity{
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(245,83,79,1) 100%);
+    width: 100%;
+    height: 75%;
+    position: absolute;
+    top: -4px;
+}
+
+.opacitybottom{
+    background: linear-gradient(0deg, rgba(245,83,79,1) 0%, rgba(245,83,79,0) 100%);
+    bottom: -4px;
+    width: 100%;
+    height: 75%;
+    position: absolute;
+}
+
+.account .centerbro{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.account .centerbro .cadastrar{
+    color: var(--font);
+    padding: 20px;
+    background: var(--white);
+    border-radius: 50%;
+    font-size: 25px;
+    -webkit-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
+    cursor: pointer;
+    text-align: center;
+    z-index: 5;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.account .centerbro .cadastrar:hover{
+    -webkit-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.95);
+-moz-box-shadow: 15px 10px 59px 5px rgba(0,0,0,0.95);
+box-shadow: 15px 10px 59px 5px rgba(0,0,0,0.95);
+}
+
+.account .right .image_ilustration{
+    width: 100%;
+    height: 460px;
+    background-size: cover;
+    -webkit-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
+}
+
+.account .right h1{
+    font-size: 2em;
+    padding: 10px;
+}
+
+.account .right .opacity{
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, var(--bluedark) 100%);
+    width: 100%;
+    height: 230px;
+    position: relative;
+    top: -4px;
+    transform: scale(1.02);
+}
+
+.account .right .opacitybottom{
+    background: linear-gradient(0deg, var(--bluedark) 0%, rgba(245,83,79,0) 100%);
+    bottom: -4px;
+    width: 100%;
+    height: 230px;
+    position: relative;
+    transform: scale(1.02);
+}
+
+.account .left .form{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 100%;
+}
+
+.account .left .form input{
+    width: 60%;
+    position: relative;
+    left: 0%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    -webkit-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
+    border-radius: 30px;
+}
+
+.account .left .form h1,h2{
+    position: relative;
+    top: -45px;
+}
+
+.account .left .form button{
+    padding: 20px;
+    border: none;
+    font-size: 28px;
+    outline: none;
+    -webkit-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
+    border-radius: 50%;
+    background: #fff;
+    color: var(--font);
+    position: relative;
+    left: -30px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.account .left .form button:hover{
+    -webkit-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.95);
+    -moz-box-shadow: 15px 10px 59px 5px rgba(0,0,0,0.95);
+    box-shadow: 15px 10px 59px 5px rgba(0,0,0,0.95);
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.account .right{
+    overflow-y: auto;
+    overflow-x: hidden;
 }

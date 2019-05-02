@@ -16,13 +16,9 @@
 
 <body>
 
-<div class="background"></div>
-<div class="overlay">
-    <div class="error_get">
-        <h1>Ocorreu um erro ao conectar ao banco de dados</h1>
-    </div>
-</div>
+<div class="center">
 
+</div>
 
 </body>
 
