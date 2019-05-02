@@ -300,7 +300,9 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     .center{
         width: calc(100% - 50px);
         height: calc(100% - 50px);
-    }   
+    } 
+	
+
 }
 
 @media screen and (max-width: 640px) {
@@ -320,6 +322,19 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     .centerbro{
         top: 90% !important;
     }
+	
+	#login button{
+		left: 80px !important;
+	}
+	
+}
+
+@media screen and (max-width: 731px) {
+	
+	#login button{
+		left: 90px !important;
+	}
+	
 }
 
 @media screen and (max-width: 1024px) {
@@ -344,8 +359,24 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
         top: 53px;
         left: -27% !important;
     }
+	
+	#login .icon{
+		left: -26% !important;
+	}
+	
+	#login button{
+		left: 200px !important;
+	}
+
 }
 
+@media screen and (max-width: 576px) {
+	
+	#login button{
+		left: 140px !important;
+	}
+	
+}
 
 
 .center .left .form .icon{
@@ -377,4 +408,13 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 .center #register .icon{
     top: 13px;
     left: -25%;
+}
+
+#blainput{
+	transition: 1s;
+}
+
+#blainput .icon{
+	left: -24%;
+	top: 13px;
 }

@@ -30,23 +30,31 @@
       <h1>Faça o login</h1>
       <h2>Conheça amigos, e se divirta conosco</h2>
         <form>
+		 <div id="blainput">
           <div class="icon"><i class="fas fa-at"></i></div>
           <input type="text" placeholder="E-mail">
-          <button data-href="login"><i class="fas fa-arrow-circle-right"></i></button>
+		  </div>
+          <button style="top: -100px; left: 150px;" data-href="login"><i class="fas fa-arrow-circle-right"></i></button>
         </form>
       </div>
       <div class="form" id="register">
       <h1>Faça o registro</h1>
       <h2>Conheça amigos, e se divirta conosco</h2>
         <form>
+		<div id="blainput">
           <div class="icon"><i class="fas fa-at"></i></div>
           <input type="text" placeholder="E-mail">
+		  </div>
+		  <div id="blainput">
           <div class="icon"><i class="fas fa-key"></i></div>
           <input type="password" placeholder="Senha">
+		  </div>
+		  <div id="blainput">
           <div class="acertar" style="left: 30px;">
           <div class="icon"><i class="fas fa-user"></i></div>
           <input type="text" placeholder="Nome">
           </div>
+		  </div>
           <button style="top: -98px; left: 28%;" data-href="registro"><i class="fas fa-arrow-circle-right"></i></button>
         </form>
       </div>
