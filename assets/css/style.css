@@ -236,11 +236,12 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     left: 0%;
     border: none;
     outline: none;
-    padding: 15px;
+    padding: 15px 70px;
     -webkit-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     border-radius: 30px;
+    font-size: 18px;
 }
 
 .account .left .form h1,h2{
@@ -260,7 +261,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     background: #fff;
     color: var(--font);
     position: relative;
-    left: -30px;
+    left: -40px;
     top: 5px;
     cursor: pointer;
 }
@@ -322,3 +323,20 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     }
 }
 
+.center .left .form .icon{
+    position: relative;
+    left: -31.40%;
+    top: 65px;
+    z-index: 5;
+    background: var(--bluedark);
+    width: 40px;
+    border-radius: 30px;
+    height: 30px;
+    padding: 11px;
+}
+
+.center .left .form .icon i{
+    position: relative;
+    font-size: 22px;
+    top: 5px;
+}

@@ -30,6 +30,7 @@
       <h1>Faça o login</h1>
       <h2>Conheça amigos, e se divirta conosco :)</h2>
         <form>
+          <div class="icon"><i class="fas fa-at"></i></div>
           <input type="text" placeholder="E-mail">
           <button><i class="fas fa-arrow-circle-right"></i></button>
         </form>
