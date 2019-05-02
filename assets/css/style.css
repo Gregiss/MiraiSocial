@@ -13,6 +13,11 @@
     margin: 0px;
 }
 
+a{
+	color: var(--yellow);
+	text-decoration: none;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
   }
@@ -224,6 +229,20 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     height: 230px;
     position: relative;
     transform: scale(1.02);
+}
+
+.account .right .opacitybottom .postagem{
+		position: relative;
+		top: 140px;
+		text-align: center;
+}
+
+.account .right .opacitybottom .postagem h1{
+	font-size: 22px;
+}
+
+.account .right .opacitybottom .postagem p{
+	font-size: 18px;
 }
 
 .account .left .form{

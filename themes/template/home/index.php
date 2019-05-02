@@ -72,11 +72,21 @@
       <h1>No MiraiSocial você pode fazer muitas coisas!</h1>
       <div class="image_ilustration" style="background-image:url('https://cdn.dribbble.com/users/427857/screenshots/4870356/ui-designer_illustration_by_tranmautritam.png');">
       <div class="opacity"></div>
-      <div class="opacitybottom"></div>
+      <div class="opacitybottom">
+	  <div class="postagem">
+		<h1>Publicado por <a href="/user/1">@kaway404</a></h1>
+		<p>Hello guys</p>
+      </div>
+	  </div>
       </div>
       <div class="image_ilustration" style="background-image:url('https://i.pinimg.com/originals/5f/8d/4e/5f8d4e8df90ac80c2b4361e1874ed4bf.jpg');">
       <div class="opacity"></div>
-      <div class="opacitybottom"></div>
+      <div class="opacitybottom">
+	  <div class="postagem">
+		<h1>Publicado por <a href="/user/1">@kaway404</a></h1>
+		<p>Hello guys</p>
+      </div>
+	  </div>
       </div>
     </div>
     </div>
