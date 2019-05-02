@@ -76,8 +76,7 @@ body,html{
     -webkit-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
-    overflow-x: hidden;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .padding{
