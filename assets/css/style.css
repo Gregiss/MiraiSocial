@@ -71,8 +71,8 @@ body,html{
     left: 50%;
     transform: translate(-50%, -50%);
     background: var(--bluedark);
-    width: calc(100% - 50px);
-    height: calc(100% - 50px);
+    width: calc(70% - 50px);
+    height: calc(70% - 50px);
     -webkit-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
@@ -158,6 +158,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     text-align: center;
     z-index: 5;
     transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    background: #fff;
 }
 
 .account .centerbro .cadastrar:hover{
