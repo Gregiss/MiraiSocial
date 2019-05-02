@@ -10,6 +10,7 @@ function template($dir, $file){
     //Configuração site
     $title = 'MiraiSocial';
     $keywords = 'Social Network, Rede Social, geek, Coders, Decoder';
+    //Não edite daqui pra baixo :)
     require_once 'themes/template/'.$dir. '/' . $file; // Incluir arquivo template
 }
 
