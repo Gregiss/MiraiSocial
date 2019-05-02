@@ -333,6 +333,13 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     }
 }
 
+@media screen and (max-width: 1304px) {
+	.center .left .form h1,h2{
+		position: relative;
+		top: -20px;
+	}
+}
+
 .center .left .form .icon{
     position: relative;
     left: -31.40%;
