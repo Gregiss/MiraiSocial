@@ -41,10 +41,10 @@
         <form>
           <div class="icon"><i class="fas fa-at"></i></div>
           <input type="text" placeholder="E-mail">
-          <div class="icon"><i class="fas fa-at"></i></div>
+          <div class="icon"><i class="fas fa-key"></i></div>
           <input type="password" placeholder="Senha">
           <div class="acertar" style="left: 30px;">
-          <div class="icon"><i class="fas fa-at"></i></div>
+          <div class="icon"><i class="fas fa-user"></i></div>
           <input type="text" placeholder="Nome">
           </div>
           <button style="top: -58px; left: 28%;" data-href="registro"><i class="fas fa-arrow-circle-right"></i></button>
