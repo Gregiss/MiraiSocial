@@ -119,7 +119,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     background-color: var(--red);
     transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
 
 }
 
@@ -245,6 +245,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     border-radius: 30px;
     font-size: 18px;
+    top: -40px;
 }
 
 .account .left .form h1,h2{
@@ -265,7 +266,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     color: var(--font);
     position: relative;
     left: -40px;
-    top: 5px;
+    top: -40px;
     cursor: pointer;
 }
 
@@ -334,7 +335,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 .center .left .form .icon{
     position: relative;
     left: -31.40%;
-    top: 65px;
+    top: 25px;
     z-index: 5;
     background: var(--bluedark);
     width: 40px;
@@ -358,6 +359,6 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 }
 
 .center #register .icon{
-    top: 53px;
+    top: 13px;
     left: -25%;
 }

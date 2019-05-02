@@ -47,7 +47,7 @@
           <div class="icon"><i class="fas fa-user"></i></div>
           <input type="text" placeholder="Nome">
           </div>
-          <button style="top: -58px; left: 28%;" data-href="registro"><i class="fas fa-arrow-circle-right"></i></button>
+          <button style="top: -98px; left: 28%;" data-href="registro"><i class="fas fa-arrow-circle-right"></i></button>
         </form>
       </div>
       </center>
