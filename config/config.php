@@ -1,12 +1,9 @@
 <?php
-
-
-
 //Template funcao
 function template($dir, $file){
     //Configuração site
     $title = 'MiraiSocial';
-    $keywords = 'Social Network, Rede Social, geek, Coders, Decoder';
+    $keywords = 'Social Network, Rede Social, geek, Coders, Decoder, Social';
     //Não edite daqui pra baixo :)
     //Conexão com banco de dados
     $username = "kaway404";
