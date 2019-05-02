@@ -117,7 +117,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     width: 50%;
     height: 100%;
     background-color: var(--red);
-    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 0.5s;
     overflow-x: hidden;
     overflow-y: hidden;
 
@@ -130,7 +130,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     width: 50%;
     height: 100%;
     background: transparent;
-    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 0.5s;
 }
 
 .account h1{
@@ -168,6 +168,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    z-index: 20;
 }
 
 .account .centerbro .cadastrar{
@@ -182,7 +183,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     cursor: pointer;
     text-align: center;
     z-index: 5;
-    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 0.5s;
     background: #fff;
 }
 
@@ -274,7 +275,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.95);
     -moz-box-shadow: 15px 10px 59px 5px rgba(0,0,0,0.95);
     box-shadow: 15px 10px 59px 5px rgba(0,0,0,0.95);
-    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 0.5s;
 }
 
 .account .right{
