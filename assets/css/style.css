@@ -339,7 +339,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 	
 	#login button{
 		left: 80px !important;
-	}
+    }
 	
 }
 
@@ -371,7 +371,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 
     .center #register .icon{
         top: 53px;
-        left: -27% !important;
+        left: -22% !important;
     }
 	
 	#login .icon{
