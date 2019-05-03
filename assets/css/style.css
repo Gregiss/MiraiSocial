@@ -375,9 +375,10 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     }
 	
 	#login .icon{
-		left: -26% !important;
+		left: -31% !important;
 	}
-	
+
+
 	#login button{
 		left: 200px !important;
 	}
@@ -422,15 +423,6 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 .center #register .icon{
     top: 13px;
     left: -25%;
-}
-
-#blainput{
-	transition: 1s;
-}
-
-#blainput .icon{
-	left: -24%;
-	top: 13px;
 }
 
 .centerbro .desc{
