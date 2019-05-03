@@ -28,7 +28,7 @@
       <center>
       <div class="form" id="login">
       <h1>Faça o login</h1>
-      <h2>Conheça amigos, e se divirta conosco</h2>
+      <h2>Conheça amigos e se divirta conosco</h2>
       <div style="left: 40px; position: relative;">
         <form>
 		 

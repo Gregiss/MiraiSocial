@@ -1,0 +1,5 @@
+ErrorDocument 404 /themes/template/error/404.php
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+RewriteRule ^login/?$ index.php?account [NC,L]
+</IfModule>
