@@ -11,9 +11,8 @@ function template($dir, $file){
     try {
       $conn = new PDO('mysql:host=localhost;dbname=miraisocial', $username, $password);
       $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-      require_once 'themes/template/index.php';
     } catch(PDOException $e) {
-      require_once 'themes/template/error/database.php'; // Carregar página de erro
+      $error = 1;
     }
     require 'themes/template/'.$dir. '/' . $file; // Incluir arquivo template
 }
