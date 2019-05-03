@@ -397,13 +397,13 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 .center .left .form .icon{
     position: relative;
     left: -31.40%;
-    top: 25px;
+    top: 19px;
     z-index: 5;
     background: var(--bluedark);
     width: 40px;
     border-radius: 30px;
     height: 30px;
-    padding: 12px;
+    padding: 5px;
 }
 
 .center .left .form .icon i{
@@ -421,7 +421,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 }
 
 .center #register .icon{
-    top: 13px;
+    top: 5px;
     left: -25%;
 }
 
@@ -474,12 +474,14 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 }
 
 .controle{
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 400px;
+    transform: scale(1.05);
+    height: 450px;
     background-image: url("https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2018/12/Whitefield-Academy.jpg");
-    top: 450px;
+    top: 0px;
     left: 0px;
+    font-size: 13px;
 }
 
 .controle button{
@@ -498,4 +500,13 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     -moz-box-shadow: 15px 10px 59px 5px rgba(0,0,0,0.95);
     box-shadow: 15px 10px 59px 5px rgba(0,0,0,0.95);
     cursor: pointer;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    background: var(--bluedark);
+    width: 100%;
+    height: 100px;
+    left: 0px;
 }

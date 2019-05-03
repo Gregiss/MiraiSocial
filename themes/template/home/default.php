@@ -18,7 +18,7 @@
 
 <body>
 
-<div class="center">
+<div class="center" style="height: 100%;">
 
 <div class="friends" style="color: var(--white);overflow-x: hidden; overflow-y: auto;top: 0px; height: 100%; background-image: url('https://s3.amazonaws.com/spectrumnews-web-assets/uploads/2018/03/Veronica-Grech-Viewpoint-01.jpg');">
 <div class="opacity" style="position: fixed;background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgb(49, 58, 135) 100%); transform: scale(1.4); "></div>
@@ -51,11 +51,13 @@ echo '<br>';
 ?>
 
 <div class="controle">
-<h2 style="z-index: 5; background: rgba(0,0,0,.90); width: 100%; top: 0px; position: relative; left: 40px; padding: 10px;">É você no controle, controle seu feed de nóticias de acordo com seus gostos</h2>
+<h2 style="z-index: 5; background: rgba(0,0,0,.90); padding-left: 40px;">É você no controle, controle seu feed de nóticias de acordo com seus gostos</h2>
 
 <a href="/login"><button>Fazer o login ou faça o cadastro</button></a>
 
 </div>
+
+<div class="footer"></div>
 
 </div>
 
