@@ -478,7 +478,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     width: 100%;
     height: 400px;
     background-image: url("https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2018/12/Whitefield-Academy.jpg");
-    top: 420px;
+    top: 450px;
     left: 0px;
 }
 
@@ -488,7 +488,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     border: none;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 60%;
     transform: translate(-50%, -50%);
     font-size: 28px;
     background: var(--bluedark);
