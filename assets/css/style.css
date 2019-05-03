@@ -441,7 +441,8 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 	border-radius: 20px;
 	font-size: 18px;
 	height: 20px;
-	left: -9px;
+	left: -15px;
 	text-align: center;
 	transition: 0.4s;
+	width: 90px;
 }
