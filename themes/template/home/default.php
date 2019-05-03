@@ -51,7 +51,7 @@ echo '<br>';
 ?>
 
 <div class="controle">
-<h2 style="z-index: 5; background: rgba(0,0,0,.90); width: 100%; top: 0px; position: relative; left: 40px; padding: 10px;">É você no controle, controle seu feed de nóticias de acordo dos seus gostos</h2>
+<h2 style="z-index: 5; background: rgba(0,0,0,.90); width: 100%; top: 0px; position: relative; left: 40px; padding: 10px;">É você no controle, controle seu feed de nóticias de acordo com seus gostos</h2>
 
 <a href="/login"><button>Fazer o login ou o cadastro</button></a>
 
