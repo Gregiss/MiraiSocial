@@ -32,7 +32,7 @@
       <div style="left: 40px; position: relative;">
         <form>
 		 
-          <div class="icon"><i class="fas fa-at"></i></div>
+          <div class="icon"><i class="fas fa-envelope"></i></div>
           <input type="text" placeholder="E-mail">
 		  
           <button style="top:-35px; left: -40px;" data-href="login"><i class="fas fa-arrow-circle-right"></i></button>
@@ -45,7 +45,7 @@
       <div style="left: 0px; position: relative;">
         <form>
 		
-          <div class="icon"><i class="fas fa-at"></i></div>
+          <div class="icon"><i class="fas fa-envelope"></i></div>
           <input type="text" placeholder="E-mail">
 		  
 		 
