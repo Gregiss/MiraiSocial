@@ -20,7 +20,7 @@
 
 <div class="center" style="height: 100%;">
 
-<div class="friends" style="color: var(--white);overflow-x: hidden; overflow-y: auto;top: 0px; height: 100%; background-image: url('https://s3.amazonaws.com/spectrumnews-web-assets/uploads/2018/03/Veronica-Grech-Viewpoint-01.jpg');">
+<div class="friends" style="color: var(--white);overflow-x: hidden; overflow-y: auto;top: 0px; height: 100%; background-image: url('https://i.imgur.com/XXI3y4g.jpg');">
 <div class="opacity" style="position: fixed;background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgb(49, 58, 135) 100%); transform: scale(1.4); "></div>
 <div class="opacitybottom" style="position: fixed; background: linear-gradient(0deg, rgb(49, 58, 135) 0%, rgba(0,0,0,0) 100%); transform: scale(1.4); "></div>
 <div style="padding: 50px; position: relative; z-index: 10;">
@@ -38,7 +38,7 @@ echo '<br>';
 <?php for($i = 1; $i <= 20; $i++){?>
 <div class="post_preview">
     <div class="overlay"></div>
-    <img src="http://purplerainillustrators.com/news/news_images/Veronica_Grech/201609202140_Illustration-Book%20Swap-Veronica%20Grech._d.jpg" alt="">
+    <img src="https://images.unsplash.com/photo-1496284045406-d3e0b918d7ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="">
     <h1 style="font-size: 16px; position: absolute; bottom: 10px; z-index: 10; left: 10px;">Publicado por <span style="color: var(--yellow);">@kaway404</span></h1>
 </div>
 <?php } ?>

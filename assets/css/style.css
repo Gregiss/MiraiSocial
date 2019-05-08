@@ -1,11 +1,11 @@
 :root{
-    --body: #F8E9E9;
-    --font: #1C213F;
-    --bluedark: #1C213F;
-    --blue: #313A87;
-    --yellow: #F3B900;
+    --body: #080326;
+    --font: #D929CD;
+    --bluedark: #F20F62;
+    --blue: #0E1B3D;
+    --yellow: #F2E527;
     --red: #F5534F;
-    --white: #F8E9E9;
+    --white: #fff;
 }
 
 *{
@@ -98,7 +98,6 @@ body,html{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: var(--bluedark);
     width: calc(70% - 50px);
     height: calc(70% - 50px);
     -webkit-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
@@ -121,7 +120,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     float: left;
     width: 50%;
     height: 100%;
-    background-color: var(--red);
+    background-color: var(--body);
     transition: 0.5s;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -149,11 +148,11 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     top: 20px;
     left: -40px;
     background-size: cover;
-    background-image: url("https://static1.squarespace.com/static/53bd92bbe4b0b8633f92a5af/59ff3930e2c483f6d0565405/59ff3986e2c483f6d0565c8e/1509898639956/Impressing+my+best+friends.jpg?format=1000w");
+    background-image: url("https://i.imgur.com/lTKWRNF.gif");
 }
 
 .opacity{
-    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(245,83,79,1) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, var(--body) 100%);
     width: 100%;
     height: 75%;
     position: absolute;
@@ -161,7 +160,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 }
 
 .opacitybottom{
-    background: linear-gradient(0deg, rgba(245,83,79,1) 0%, rgba(245,83,79,0) 100%);
+    background: linear-gradient(0deg, var(--body) 0%, rgba(245,83,79,0) 100%);
     bottom: -4px;
     width: 100%;
     height: 75%;
@@ -209,7 +208,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 }
 
 .account .right .opacity{
-    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, var(--bluedark) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, var(--body) 100%);
     width: 100%;
     height: 230px;
     position: relative;
@@ -218,7 +217,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 }
 
 .account .right .opacitybottom{
-    background: linear-gradient(0deg, var(--bluedark) 0%, rgba(245,83,79,0) 100%);
+    background: linear-gradient(0deg, var(--body) 0%, rgba(245,83,79,0) 100%);
     bottom: -4px;
     width: 100%;
     height: 230px;
@@ -295,6 +294,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 .account .right{
     overflow-y: auto;
     overflow-x: hidden;
+    background: var(--body);
 }
 
 @media screen and (max-width: 1304px) {
@@ -410,6 +410,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     position: relative;
     font-size: 22px;
     top: 5px;
+    color: #fff;
 }
 
 .center .left #register{
@@ -478,7 +479,8 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     width: 100%;
     transform: scale(1.05);
     height: 450px;
-    background-image: url("https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2018/12/Whitefield-Academy.jpg");
+    background-image: url("https://i.imgur.com/lTKWRNF.gif");
+    background-size: cover;
     top: 0px;
     left: 0px;
     font-size: 13px;
