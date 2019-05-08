@@ -32,7 +32,7 @@ echo '<br>';
 }
 ?>
 
-<h2 style="position: relative;"><?php echo $title;?> é uma rede social tão facil de usar, que se torna dificil de se explicar!</h2>
+<h2 style="position: relative; z-index: 100000;"><?php echo $title;?> é uma rede social tão facil de usar, que se torna dificil de se explicar!</h2>
 
 <div style="position: relative; white-space: nowrap; overflow-x: auto;">
 <?php for($i = 1; $i <= 20; $i++){?>
