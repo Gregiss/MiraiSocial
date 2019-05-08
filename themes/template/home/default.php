@@ -24,7 +24,7 @@
 <div class="opacity" style="position: fixed;background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgb(49, 58, 135) 100%); transform: scale(1.4); "></div>
 <div class="opacitybottom" style="position: fixed; background: linear-gradient(0deg, rgb(49, 58, 135) 0%, rgba(0,0,0,0) 100%); transform: scale(1.4); "></div>
 <div style="padding: 50px; position: relative; z-index: 10;">
-<h1 class="logo" style="position: fixed;"><?php echo $title;?></h1>
+<h1 class="logo" style="position: fixed; z-index: 100000;"><?php echo $title;?></h1>
 
 <?php
 for($i = 1; $i <= 4; $i++){
@@ -32,7 +32,7 @@ echo '<br>';
 }
 ?>
 
-<h2 style="position: relative; z-index: 100000;"><?php echo $title;?> é uma rede social tão facil de usar, que se torna dificil de se explicar!</h2>
+<h2 style="position: relative;"><?php echo $title;?> é uma rede social tão facil de usar, que se torna dificil de se explicar!</h2>
 
 <div style="position: relative; white-space: nowrap; overflow-x: auto;">
 <?php for($i = 1; $i <= 20; $i++){?>

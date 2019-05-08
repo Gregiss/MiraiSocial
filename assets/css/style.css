@@ -99,7 +99,7 @@ body,html{
     left: 50%;
     transform: translate(-50%, -50%);
     width: calc(70% - 50px);
-    height: calc(70% - 50px);
+    height: calc(90% - 50px);
     -webkit-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
@@ -123,7 +123,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
     background-color: var(--body);
     transition: 0.5s;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: auto;
 
 }
 
@@ -300,7 +300,7 @@ box-shadow: 10px 10px 49px -5px rgba(0,0,0,0.75);
 @media screen and (max-width: 1304px) {
 	
 	.center{
-		height: calc(90% - 20px);
+		height: calc(100% - 20px);
 		width: calc(80% - 20px);
 	}
 	
